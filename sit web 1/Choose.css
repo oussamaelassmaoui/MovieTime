@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+html {
+  background-image: url('images/bac ch.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 0 8%;
+  position: relative;
+}
+nav{
+  display: flex;
+  width: 84%;
+  margin: auto;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 70px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+nav ul li a:hover{
+  color: red;
+}
+body {
+  padding: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;  
+}
+.V h1{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0 -12%;
+}
+.V h3{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0 -12%;
+    color: rgb(255, 255, 255);
+}
+.V span{
+    color: rgb(255, 0, 51);
+}
+.promos {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.promo {
+  width: 250px;
+  background: #00000046; 
+  color: #f9f9f9;
+  float: left;
+}
+.deal {
+  padding: 10px 0 0 0;
+}
+.deal span {
+  display: block;
+  text-align: center;
+}
+.deal span:first-of-type {
+  font-size: 23px;  
+}
+.deal span:last-of-type {
+  font-size: 13px;
+}
+.promo .price {
+  display: block;
+  width: 250px;  
+  background: #fa000094;
+  margin: 15px 0 10px 0;
+  text-align: center;
+  font-size: 23px;
+  padding: 17px 0 17px 0;
+}
+ul {
+  display: block;
+  margin: 20px 0 10px 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+  color: #999999;
+}
+li {
+  display: block;
+  margin: 10px 0 0 0;
+}
+button {
+  border: none;
+  border-radius: 40px;
+  background: #0d98aa;
+  color: #f9f9f9;
+  padding: 10px 37px;
+  margin: 10px 0 20px 60px;
+  box-shadow: 0 0 4px 1px rgba(20, 20, 20, 0.8);
+}
+.scale {
+  transform: scale(1.2);
+  box-shadow: 0 0 4px 1px rgba(20, 20, 20, 0.8);
+}
+.scale button {
+  background: #64AAA4;
+}
+.scale .price {
+  color: #64AAA4;
+}
